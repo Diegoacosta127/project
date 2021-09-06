@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: Arial, Helvetica;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+img.small {
+    width: 100px;
+}
+
+header{
+    color: lightgreen;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    border: 2px solid red;
+}
+
+header .right{
+    text-align: right;
+    float: right;
+    margin: 0 10px 15px
+}
+
+header ul li{
+    color: lightgreen;
+    text-align:left;
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    color: yellow;
+    flex: auto;
+    flex-direction: row;
+}
+
+article{
+    text-align: left;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+aside{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.comments{
+    width: 80%;
+    padding: 5%;
+    background-color: lightgray;
+}
+
+footer{
+}
